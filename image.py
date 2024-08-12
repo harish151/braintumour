@@ -8,7 +8,7 @@ def prediction(path):
     #load and preprocess the test image
     #C:\Users\sathish rachuri\OneDrive\Desktop\project2\uploads\y0.jpg
     modified_path = path.replace('\\', '/')
-    print(modified_path)
+    #print(modified_path)
     test_image_path=f'C:/Users/sathish rachuri/OneDrive/Desktop/project2/'+f'{modified_path}'
     img=image.load_img(test_image_path,target_size=(224,224))
     img_array=image.img_to_array(img)
