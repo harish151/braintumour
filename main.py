@@ -21,8 +21,8 @@ def index():
             filename = file.filename
             file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(file_path)
-            print(f"File saved to: {file_path}")
-            print(f"File uploaded successfully! File path: {file_path}")
+            #print(f"File saved to: {file_path}")
+            #print(f"File uploaded successfully! File path: {file_path}")
             output=prediction(file_path)
             return render_template('project2.html',out=output)
         else:
