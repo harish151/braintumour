@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='proj.css')}}">
+</head>
+<body >
+    <form action="/" method="post" enctype="multipart/form-data">
+        <h1 class="hec">BRAIN TUMOUR DETECTION</h1>
+        <h3 align="center" class="hec1"><u>USING CNN</u></h3>
+        <div class="dis">
+        <img src="https://etimg.etb2bimg.com/photo/100827909.cms" alt="brain logo" width="250" height="250"><br><br>
+        </div>
+        <p id="i1"><b>UPLOAD THE FILE HERE</b></p>
+        
+            <div id="ty">
+                <input type="file" accept="images" name="file">
+            </div>
+            <div class="i2">
+                <br><br>
+                <button type="submit">DETECT</button>
+            </div>
+            <h1 style="color: whitesmoke;">{{out}}</h1>
+            
+    </form>
+</body>
+</html>
+
