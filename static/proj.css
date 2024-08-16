@@ -1,0 +1,32 @@
+body{
+     background-image:url('https://w0.peakpx.com/wallpaper/285/419/HD-wallpaper-anime-starry-sky-original.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+.hec{width:max-content;
+     border-style:groove;
+     border-width:10px;
+     border-color:black;
+     align-items:center;
+     justify-content:center;
+     margin-left:500px;
+     padding:10px;
+     color:white;
+}
+.hec1{color:white;}
+.dis{display: flex;
+     justify-content: center;
+     align-items: center;}
+#ty{display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;}
+#i1{margin-left:650px;
+    padding-top: 10px;
+     color: white;}
+.i2{ display:flex;
+     justify-content:center;
+     align-items:center;
+     padding:20px;
+}
